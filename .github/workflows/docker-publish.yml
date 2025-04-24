@@ -23,6 +23,11 @@ env:
 
 
 jobs:
+  integration:
+    uses: ./.github/workflows/Ch3_05_01_workflow_phyton_app
+    permissions:
+      contents: read
+      checks: write
   build:
 
     runs-on: ubuntu-latest
