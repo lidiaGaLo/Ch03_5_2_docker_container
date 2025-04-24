@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: ./.github/workflows/python-app.yml                              
+    uses: lidiaGaLo/Ch3_05_01_workflow_phyton_app/.github/workflows/python-app.yml@main                             
     permissions:
       contents: read
       checks: write
